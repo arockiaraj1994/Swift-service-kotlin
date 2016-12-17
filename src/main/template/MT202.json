@@ -1,0 +1,74 @@
+{
+	"block1": {
+		"Field20": {
+            "name": "field20",
+            "description": "",
+            "params": [
+                {
+                    "init": [
+                        "TransactionReferenceNumber"
+                    ]
+                }
+            ]
+        },
+        "Field21": {
+            "name": "field21",
+            "description": "",
+            "params": [
+                {
+                    "init": [
+                        "RelatedReferenceNumber"
+                    ]
+                }
+            ]
+        }
+	},
+	"block4": {
+		"Field32A": {
+			"name": "field32A",
+			"description": "",
+			"params": [
+				{
+					"Currency": "CurrencyCode",
+					"Amount": "Amount",
+					"Date": "Date"
+				}
+			]
+		}
+		
+	},
+	"block3": {
+		"Field53B": {
+            "name": "field53B",
+            "description": "",
+            "params": [
+                {
+                    "Account": "Sender.Account.Number",
+                    "Location": "Sender.Institution.Name"
+                }
+            ]
+        },
+        "Field57A": {
+            "name": "field57A",
+            "description": "",
+            "params": [
+                {
+                    "BIC": "Receiver.Bank.BIC + Receiver.Bank.Branch"
+                }
+            ]
+        },
+        "Field58A": {
+            "name": "field58A",
+            "description": "",
+            "params": [
+                {
+                    "Account": "Receiver.Account.Number",
+                    "BIC": "Receiver.Institution.BIC"
+                }
+            ]
+        }
+	},
+	"block2": {
+		
+	}
+}
