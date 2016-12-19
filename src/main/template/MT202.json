@@ -34,17 +34,24 @@
 					"Date": "Date"
 				}
 			]
-		}
-		
-	},
-	"block3": {
-		"Field53B": {
+		},
+		"Field58A": {
+            "name": "field58A",
+            "description": "",
+            "params": [
+                {
+                    "Account": "ReceiverAccountNumber",
+                    "BIC": "ReceiverInstitutionBIC"
+                }
+            ]
+        },
+        "Field53B": {
             "name": "field53B",
             "description": "",
             "params": [
                 {
-                    "Account": "Sender.Account.Number",
-                    "Location": "Sender.Institution.Name"
+                    "Account": "SenderAccountNumber",
+                    "Location": "SenderInstitutionName"
                 }
             ]
         },
@@ -53,20 +60,14 @@
             "description": "",
             "params": [
                 {
-                    "BIC": "Receiver.Bank.BIC + Receiver.Bank.Branch"
-                }
-            ]
-        },
-        "Field58A": {
-            "name": "field58A",
-            "description": "",
-            "params": [
-                {
-                    "Account": "Receiver.Account.Number",
-                    "BIC": "Receiver.Institution.BIC"
+                    "BIC": "ReceiverBankBICReceiverBankBranch"
                 }
             ]
         }
+	},
+	"block3": {
+        
+        
 	},
 	"block2": {
 		
